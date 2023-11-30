@@ -1,6 +1,9 @@
 
 // import './App.css'
+import Main from './Components/Main'
 import SideNav from './Components/SideNav'
+import Work from './Work/Work'
+
 
 
 function App() {
@@ -11,6 +14,9 @@ function App() {
 
       
        <SideNav></SideNav>
+       <Main></Main>
+      
+      <Work/>
 
 
 
