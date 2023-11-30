@@ -1,5 +1,7 @@
 
-import './App.css'
+// import './App.css'
+import SideNav from './Components/SideNav'
+
 
 function App() {
 
@@ -7,9 +9,12 @@ function App() {
   return (
     <>
 
-      <div className='flex items-center justify-center'>
-        <h1 >portfolio website </h1>
-      </div>
+      
+       <SideNav></SideNav>
+
+
+
+      
 
     </>
   )
