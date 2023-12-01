@@ -1,7 +1,9 @@
 
 // import './App.css'
+import Contact from './Components/Contact'
 import Main from './Components/Main'
 import SideNav from './Components/SideNav'
+import Projects from './Projects/Projects'
 import Work from './Work/Work'
 
 
@@ -14,6 +16,8 @@ function App() {
       <SideNav></SideNav>
       <Main></Main>
       <Work />
+      <Projects/>
+      <Contact/>
     </>
   )
 }
