@@ -8,18 +8,18 @@ const Main = () => {
             <img className="w-full h-screen object-cover object-left " src="/nubelson-fernandes-iE71-TMrrkE-unsplash.jpg" alt="" />
             <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center  items-center'>
-                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I am Hossain Ahmmed </h1>
-                    <h2 className='flex sm:text-2xl text-2xl text-gray-800 '>I am a
+                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Hi, I'm Hossain Ahmmed </h1>
+                    <h2 className='flex sm:text-2xl text-2xl text-gray-800 '>
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                'Software Engineer',
+                                'A Software Engineer',
                                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                                 'Full Stack Web Developer',
                                 1000,
-                                'Tech Enthusiast',
+                                'A Tech Enthusiast',
                                 1000,
-                                'Entrepreneur',
+                                'An Entrepreneur',
                                 1000
                             ]}
                             wrapper="div"

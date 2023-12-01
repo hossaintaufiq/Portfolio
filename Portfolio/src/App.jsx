@@ -11,17 +11,9 @@ function App() {
 
   return (
     <>
-
-      
-       <SideNav></SideNav>
-       <Main></Main>
-      
-      <Work/>
-
-
-
-      
-
+      <SideNav></SideNav>
+      <Main></Main>
+      <Work />
     </>
   )
 }
