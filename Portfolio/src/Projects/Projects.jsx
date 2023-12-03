@@ -10,13 +10,12 @@ const Projects = () => {
     return (
         <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 ">
             <h1 className="text-4xl font-bold text-center text-[#001b5e]">Projects</h1>
-            <p className="text-center py-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem aut
-                excepturi perferendis iusto maiores nulla culpa id omnis aliquam autem eaque sapiente inventore quod tempore soluta,
-                commodi, dolore adipisci! Voluptatem autem magni tempora laudantium,
-                molestiae maiores accusamus minus doloremque, harum saepe sit optio labore,
-                ipsum velit nesciunt reprehenderit dolor? Quae.
+            <p className="text-center py-8">The full-stack project in my portfolio is a
+             comprehensive web application designed and developed entirely by me.
+             It incorporates both front-end and back-end technologies to deliver a
+              seamless user experience and robust functionality.
             </p>
-            <div className="grid sm:grid-cols-2 gap-12  ">
+            <div className="grid sm:grid-cols-2 gap-12 ">
                 <ProjectItems img={project1} title='Instagram Replica'/>
                 <ProjectItems img={project2} title='Summer Sale'/>
                 <ProjectItems img={project3} title='Penguin Fashion'/>
