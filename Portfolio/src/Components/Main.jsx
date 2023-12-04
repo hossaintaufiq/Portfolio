@@ -19,7 +19,7 @@ const Main = () => {
             {/* new code ends */}
             <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center  items-center'>
-                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>Hi, I'm Hossain Ahmmed </h1>
+                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800 text-center'>Hi, I'm Hossain Ahmmed </h1>
                     <h2 className='flex sm:text-2xl text-2xl text-gray-800 font-semibold'>
                         <TypeAnimation
                             sequence={[
