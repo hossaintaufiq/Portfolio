@@ -1,6 +1,4 @@
-// import React from 'react';
 
-// import WorkItem from "./WorkItem";
 import WorkSections from "./WorkSections";
 
 
@@ -9,39 +7,19 @@ const data = [
     {
         id: '1',
         year: '2023',
-        title: 'Web Developer',
-        duration: '1 months and ongoing',
-        details: 'Developed user-facing features using HTML, CSS, and JavaScript. Collaborated with design teams to translate UI/UX wireframes into code. Develop and maintain websites and web applications according to client needs.'
+        title: 'React Website Developer - Brooksource (Remote)',
+        duration: 'Apr 2023 – Sep 2024',
+        details: 'Constructed highly interactive web applications using React.js, achieving compatibility across 10+ devices. Enhanced application performance by 20% through lazy loading and code splitting. Collaborated with a team of 4 developers to implement user-friendly UI/UX designs and integrate APIs efficiently. Received over 1,000 positive user feedback submissions within the first month of launch.'
     },
     {
         id: '2',
-        year: '2021',
-        title: 'Full Stack Developer',
-        duration: '1 year and ongoing',
-        details: 'Work with cross-functional teams to meet project goals and deadlines. Built scalable and responsive web applications using modern frameworks like React.js and Node.js. Implemented RESTful APIs for seamless communication between server and client.'
-    },
-    {
-        id: '3',
         year: '2022',
-        title: 'Associate Web Developer ',
-        duration: '6 months contract',
-        details: 'Optimized website performance and created intuitive user interfaces. Conducted usability tests and gathered feedback to enhance user experience. Proficiency in HTML, CSS, JavaScript,React js and related frameworks.'
-    },
-    {
-        id: '4',
-        year: '2023',
-        title: 'Web Developer',
-        duration: '6 months contract',
-        details: 'Deploy finished projects and ensure security measures are implemented. Analyzed large datasets using Python and SQL to derive meaningful insights.'
-    },
-    {
-        id: '5',
-        year: '2023',
-        title: 'Senior Web Developer',
-        duration: '1 year',
-        details: 'Develop and maintain websites and web applications according to client needs. Leading a team to develop and launch a new product in the market. Proficiency in HTML, CSS, JavaScript,React js and related frameworks.'
+        title: 'Website Developer - Americares (Remote)',
+        duration: 'Nov 2022 – Jun 2023',
+        details: 'Designed and developed mobile-first web applications, significantly improving cross-platform compatibility. Engineered robust API integrations to streamline communication between the front-end and back-end systems. Consistently delivered projects ahead of deadlines while maintaining high quality and adhering to industry-standard best coding practices.'
     }
-]
+];
+
 
 const Work = () => {
     return (
